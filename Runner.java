@@ -72,6 +72,8 @@ public class Runner
     /*Optional Helper: Records and reports the results of the experiment.*/
     public void reportResults(long executionTime) 
     {
-
+        System.out.println("Item: " + auction.getItemName());
+        System.out.println("Final highest bid: " + auction.getHighestBid());
+        System.out.println("Highest bidder: " + auction.getHighestBidder());
     }
 }
